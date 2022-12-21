@@ -40,13 +40,7 @@ h1 {
     padding: 8px 16px;
     cursor: pointer;
   }
-  #del_btn button {
-    display: inline-block;
-    width: 100%;
-  }
-  #del_btn input {
-    display: inline-block;
-  }
+
   button:hover {
     background-color: rgb(173, 47, 28);
   }
@@ -56,6 +50,7 @@ h1 {
   button:focus {
     outline: 0;
   }
+  
   input[type='text'] { font-size: 20px; font-family: monospace; }
   .todo input[type="checkbox"] {
     transform: scale(1.8) translateY(1px);
